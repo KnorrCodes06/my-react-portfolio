@@ -23,7 +23,7 @@ const Hero = () => {
 
       {/* DESCRIPTION */}
       <p className="text-gray-300 max-w-xl mb-6">
-        Frontend Developer building modern and aesthetic web experiences.
+        Frontend Developer and Social Media Manager skilled in ReactJS, HTML, CSS, and JavaScript, with experience in creating responsive web interfaces and managing high-performing social media campaigns.
       </p>
 
       {/* BUTTON */}

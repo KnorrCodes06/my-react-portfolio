@@ -1,6 +1,27 @@
 import ProjectCard from "../components/ProjectCard";
 
 const Projects = () => {
+  const projects = [
+    {
+      title: "Portfolio Website",
+      desc: "My personal portfolio built with React and Tailwind.",
+      link: "https://your-site.vercel.app",
+      github: "https://github.com/yourusername/portfolio",
+    },
+    {
+      title: "Resume",
+      desc: "Download my resume here.",
+      file: "/resume.pdf",
+    },
+    {
+      title: "E-commerce App",
+      desc: "Shopping UI with modern design.",
+      link: "https://your-ecommerce.vercel.app",
+      github: "https://github.com/yourusername/ecommerce",
+      file: "/project.zip",
+    },
+  ];
+
   return (
     <section
       id="projects"
@@ -11,22 +32,16 @@ const Projects = () => {
       </h2>
 
       <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-        
-        <ProjectCard
-          title="Portfolio Website"
-          desc="A modern portfolio built with React and Tailwind."
-        />
-
-        <ProjectCard
-          title="E-commerce UI"
-          desc="Clean shopping interface with great UX."
-        />
-
-        <ProjectCard
-          title="Dashboard App"
-          desc="Analytics dashboard with charts and data."
-        />
-
+        {projects.map((project, index) => (
+          <ProjectCard
+            key={index}
+            title={project.title}
+            desc={project.desc}
+            link={project.link}
+            file={project.file}
+            github={project.github}
+          />
+        ))}
       </div>
     </section>
   );
