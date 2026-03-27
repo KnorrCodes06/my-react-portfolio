@@ -3,21 +3,19 @@ import ProjectCard from "../components/ProjectCard";
 const Projects = () => {
   const projects = [
     {
-      title: "Insinyar",
-      desc: "Development of Interactive Lesson Material with Augmented Reality for MTB-MLE Chavacano Learners",
-      link: "https://drive.google.com/drive/u/1/folders/1OE9ggwRYxzHkFaAPKJPjYwIZmMLlQ23S?fbclid=IwY2xjawQxNeRleHRuA2FlbQIxMABicmlkETE1eUE5dVQzZkFrSkVvU2x6c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHopMVuKVi5s0nyvfjYSlnc9jZQ0L_D7nGbWFuftBU2QnYN57A0HgRcv9xrZ4_aem_9R0vvmSVJMfK5lnVpSDKDg",
+      title: "InsinyAR",
+      desc: "Interactive Lesson Material with Augmented Reality for MTB-MLE Chavacano Learners",
+     file: "https://drive.google.com/uc?export=download&id=FILE_ID1TjX6t3J2WHn0wjMYD_hiQ-0Pf3TUOt8s",
     },
     {
-      title: "Resume",
-      desc: "Download my resume here.",
-      file: "/resume.pdf",
+      title: "My CV",
+      desc: "Interested in my experience? Download my resume here.",
+      file: "src/assets/CV-Nur-Radia_Lagoyo.pdf",
     },
     {
-      title: "E-commerce App",
+      title: "ZCVGS Store",
       desc: "Shopping UI with modern design.",
       link: "https://your-ecommerce.vercel.app",
-      github: "https://github.com/yourusername/ecommerce",
-      file: "/project.zip",
     },
   ];
 

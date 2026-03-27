@@ -20,7 +20,7 @@ const ProjectCard = ({ title, desc, link, file }) => {
             rel="noopener noreferrer"
             className="px-4 py-2 text-sm rounded-lg bg-pink-500 hover:bg-pink-600 transition"
           >
-            Live Demo
+            View Website
           </a>
         )}
 
